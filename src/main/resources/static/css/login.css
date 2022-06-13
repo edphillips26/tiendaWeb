@@ -29,15 +29,26 @@ body{
     top:50%;
     left: 50%;
     width: 400px;
-    background: white;
+    background: blanchedalmond;
     transform: translate(-50%,-50%);
     border-radius: 10px;
-    box-shadow:10px 10px 15px rgba(0,0,0,0.05);
+    box-shadow:20px px 20px rgba(0,0,0,0.05);
+}
+
+h1{
+    color: midnightblue;
+    width: 100%;
+    padding: 0 5px;
+    height: 20px;
+    font-size: 40px;    
+    border: none;
+    background: none;
 }
 
 center h1{
     text-align: center;
     padding: 20px 0;
+    
     border-bottom: 1px solid silver;
 }
 
@@ -64,13 +75,33 @@ form .txt_field{
 .txt_field label{
     position: absolute;
     top: 50%;
-    left: 5px;
-    color: #adadad;
+    left: 35px;
+    color: gray;
     transform: translate(-50%);
     font-size: 16px;
     
 }
 
+form .signup{
+  
+    width: 100%;
+    padding: 0 5px;
+    height: 20px;
+    font-size: 15px;    
+    border: none;
+    background: none;
+}
 
 
+a {
+    color: blue;
+}
 
+div input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;    
+    border-bottom: none;
+    background: olivedrab;
+    box-sizing: border-box;
+}
