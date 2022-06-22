@@ -6,7 +6,7 @@ package com.TiendaWeb.service;
 
 import com.TiendaWeb.entity.Persona;
 import java.util.List;
-
+//esto es pára verificar cambios en git 
 public class PersonaService implements IPersonaService {
 
     @Override
