@@ -7,9 +7,15 @@ and open the template in the editor.
     Created on : 25 may. 2022, 18:08:28
     Author     : edten
 */
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 
+/* Esto es selector universal hace bambio a todo.*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Nuosu SIL', serif;
+}
 
 
 
@@ -74,16 +80,22 @@ nav ul li a {
     font-family: 'Nuosu SIL', serif;
 }
 
-
-
-
-
+.imagen{
+    height:40%;
+    position:absolute;
+    bottom:50px;
+    right:160px;
+}
 
 
 .content  p{
    fond-size:20px;
     color: sienna; 
 }
+
+
+
+
 
 
 
